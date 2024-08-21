@@ -1,0 +1,32 @@
+
+header{
+ display: flex;
+ height: 55px;
+ background-color: #443b3b; 
+ padding: 30px ;
+ margin: -8px ;
+ justify-content: space-between;
+}
+
+h1{
+ display: flex;
+ text-align: center;
+
+}
+
+.header-link{ 
+ display: flex;
+ color: #201e1e;
+ font-size: 25px; /* tamnho fonte*/
+ display: inline-block; 
+ margin-right: 70px;  /*espaçamento entre as paginas*/
+ text-align: left; 
+ text-decoration: none;
+}
+
+.oferta{
+    text-align: center;
+    display: flex;
+}
+
+
