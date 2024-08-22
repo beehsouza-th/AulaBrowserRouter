@@ -1,32 +1,64 @@
 
-header{
- display: flex;
- height: 55px;
- background-color: #443b3b; 
- padding: 30px ;
- margin: -8px ;
- justify-content: space-between;
-}
-
-h1{
- display: flex;
- text-align: center;
-
-}
-
-.header-link{ 
- display: flex;
- color: #201e1e;
- font-size: 25px; /* tamnho fonte*/
- display: inline-block; 
- margin-right: 70px;  /*espaçamento entre as paginas*/
- text-align: left; 
- text-decoration: none;
-}
-
-.oferta{
-    text-align: center;
+    header{
     display: flex;
-}
+    height: 30px; 
+    padding: 30px ;
+    margin: -8px ;
+    background-color: #02062a;
+    justify-content: space-between;
+   
+
+    }
+
+    h1{
+    display: flex;
+    text-align: center;
+    color: rgb(223, 222, 232);
+    margin-top: -5px;
+
+
+    }
+
+    .header-link{ 
+    display: flex;
+    color: rgb(223, 222, 232);
+    margin-top: -3px;
+    font-size: 25px; /* tamanho fonte*/
+    display: inline-block; 
+    margin-right: 70px;  /*espaçamento entre as paginas*/
+    text-align: left; 
+    text-decoration: none;
+    }
+
+    .carousel-pincipal{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    background-size: cover; 
+    
+    }
+
+    #carousel-img{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+    background-size: cover; /*  a iamgem cobre toda a tela*/
+    }
+
+    #item{
+    display: flex;
+    min-height: 170vh;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+
+
+    }
+
+
+
+
+
 
 

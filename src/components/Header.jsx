@@ -1,11 +1,11 @@
-import {Link,} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export default function Header(){
         return(
             <>
             <header>
                 <div>
-                <h1>Targaryen Bookstore</h1>
+                <h1>Spilled Blood Bookstore</h1>
                 </div>
                   <nav>
                 
@@ -14,7 +14,7 @@ export default function Header(){
                     </Link>
 
                     <Link to="/oferta">
-                        <h2 class='header-link'>Oferta</h2>
+                        <h2 class='header-link'>Ofertas</h2>
                     </Link>
 
                     <Link to="/produtos">

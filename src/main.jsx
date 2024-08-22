@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './Home'
-import Oferta from './Oferta'
+import Ofertas from './Ofertas'
 import Produtos from './Produtos'
 
 
@@ -11,8 +11,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
     <Routes>
       <Route path ="/" element={<Home/>}/>
-      <Route path ="/oferta" element={<Oferta/>}/>
-      <Route path ="/" element={<Produtos/>}/>
+      <Route path ="/oferta" element={<Ofertas/>}/>
+      <Route path ="/produtos" element={<Produtos/>}/>
     </Routes>
 
     </BrowserRouter>
