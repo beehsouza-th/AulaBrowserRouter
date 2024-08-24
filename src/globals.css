@@ -16,7 +16,6 @@
     color: rgb(223, 222, 232);
     margin-top: -5px;
 
-
     }
 
     .header-link{ 
@@ -46,15 +45,42 @@
     background-size: cover; /*  a iamgem cobre toda a tela*/
     }
 
-    #item{
+    .item-produtos{
     display: flex;
-    min-height: 170vh;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
-
-
+    flex-direction: column;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    overflow-x: auto;
+    
     }
+
+    .container-produtos{
+    height: 50vh;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 8%;
+    margin: 5rem;
+    align-items: center;
+    justify-content: center;
+   
+    }
+
+    body{
+        background-color:black;
+    }
+   
+
+ 
+
+
+
 
 
 

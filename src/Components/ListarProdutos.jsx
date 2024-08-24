@@ -1,31 +1,32 @@
+import { useState } from "react";
+export default function ListarProdutos({Produtos}){
 
-export default function ListarProdutos({Produtos, categorias, Nome}){
-
-
-    return(
+    const [listaPedidos, setlistaPedidos] = useState ([]);
+ const adicionarItemPedidos = (objeto) =>{
+    setlistaPedidos([...listaPedidos,objeto]);
+    }
+  
+      return(
         <>
-    <div id="item">
-        <h1>{Nome}</h1>
+     <div class='container-produtos'>
+      
 
         {
             Produtos.map((objeto) =>
-                <div key= {objeto.id}>
-                    <img  src = {objeto.imagem}/>
+                <div class='item-produtos' key= {objeto.id}>
+                    <img src = {objeto.imagem} id='produtos-img'/>
                     <h2>{objeto.nome}</h2>
-                        <h3>{objeto.preco}</h3>
-                        <p>{objeto.descrição}</p>
-
-                     
-
-                    
-
+                    <h3>{objeto.preco}</h3>
+                    <p>{objeto.descrição}</p>
+                    <button onClick={() =>adicionarProdutoPedido(objeto)}>Comprar</button>
                 </div>
         
-        )
-       }   
+            )
+        }   
 
-    </div>
-    </>
+
+     </div>
+      </>
     )
 
 }

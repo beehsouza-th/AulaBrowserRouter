@@ -7,7 +7,7 @@ export default function Produtos(){
       {
         id: 1, 
         nome:'A Incendiária',
-        preco: "119,99",
+        preco: " R$119,99",
         imagem:'https://th.bing.com/th?id=OPHS.S2gqHFnoTK7Qjw474C474&w=248&h=248&o=5&dpr=1.3&pid=21.1' ,
         descrição:'A Incendiária Coleção Biblioteca Stephen King',
         categorias:['Home',' Produtos']
@@ -18,7 +18,7 @@ export default function Produtos(){
         nome: "Carrie", 
         preco: "14,62",
         imagem:'https://th.bing.com/th?id=OPHS.pFQvaC%2b6O6ybPg474C474&w=248&h=248&c=17&o=5&dpr=1.3&pid=21.1',
-        descrição: 'Carrie, de King, Stephen',
+        descrição: ' Carrie, a estranha é um dos maiores clássicos de terror da literatura contemporânea e um dos livros mais aclamados de Stephen King.',
         categorias:['Home',' Produtos']
     },
 
@@ -65,10 +65,10 @@ export default function Produtos(){
     },
     {
         id: 8, 
-        nome:" A Torre Negra", 
-        preco: "79,99",
-        imagem:'https://th.bing.com/th?id=OPHS.M8UIwDd3bViNoQ474C474&w=300&h=300&qlt=20&o=5&dpr=1.3&pid=21.1',
-        descrição:'A Torre Negra: A Torre Negra, De King, Stephen. ',
+        nome:"A hora do Lobsomen", 
+        preco: "91,99",
+        imagem: 'https://th.bing.com/th?id=OPHS.68knIqN1nnBVEw474C474&w=248&h=248&o=5&dpr=1.3&pid=21.1',
+        descrição:'Quem será o próximo? Quando a lua cresce no céu, um terror paralisante toma os moradores da cidade. ',
         categorias:['Home',' Produtos']
     },
     {
@@ -92,7 +92,7 @@ export default function Produtos(){
         nome:" Elevation", 
         preco: "74,00",
         imagem:'https://th.bing.com/th?id=OPHS.uo%2fe3qE2VBGTLw474C474&w=248&h=248&c=17&o=5&dpr=1.3&pid=21.1',
-        descrição: 'elevation de  King, Stephen',
+        descrição: 'elevation de  King, Stephen King',
         categorias:['Home',' Produtos']
     },
     {

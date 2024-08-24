@@ -16,7 +16,7 @@ export default function Oferta(){
           nome: "Carrie", 
           preco: "14,62",
           imagem:'https://th.bing.com/th?id=OPHS.pFQvaC%2b6O6ybPg474C474&w=248&h=248&c=17&o=5&dpr=1.3&pid=21.1',
-          descrição: 'Carrie, de King, Stephen',
+          descrição: ' Carrie, a estranha é um dos maiores clássicos de terror da literatura contemporânea e um dos livros mais aclamados de Stephen King.',
           categorias:['Home',' Produtos']
       },
   
@@ -62,12 +62,12 @@ export default function Oferta(){
           categorias:['Home',' Produtos']
       },
       {
-          id: 8, 
-          nome:" A Torre Negra", 
-          preco: "79,99",
-          imagem:'https://th.bing.com/th?id=OPHS.M8UIwDd3bViNoQ474C474&w=300&h=300&qlt=20&o=5&dpr=1.3&pid=21.1',
-          descrição:'A Torre Negra: A Torre Negra, De King, Stephen. ',
-          categorias:['Home',' Produtos']
+        id: 8, 
+        nome:"A hora do Lobsomen", 
+        preco: "91,99",
+        imagem:'https://th.bing.com/th?id=OPHS.68knIqN1nnBVEw474C474&w=248&h=248&o=5&dpr=1.3&pid=21.1p',
+        descrição:' Quem será o próximo? Quando a lua cresce no céu, um terror paralisante toma os moradores da cidade. ',
+        categorias:['Home',' Produtos']
       },
       {
           id: 9, 
