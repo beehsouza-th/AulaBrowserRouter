@@ -5,7 +5,9 @@ export default function Header(){
             <>
             <header>
                 <div>
+                    
                 <h1>Spilled Blood Bookstore</h1>
+
                 </div>
                   <nav>
                 

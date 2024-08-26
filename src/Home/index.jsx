@@ -12,7 +12,7 @@ import ListarProdutos from '../Components/ListarProdutos';
         {
             id: 2, 
             nome: "Carrie", 
-            preco: "14,62",
+            preco: "R$14,62",
             imagem:'https://th.bing.com/th?id=OPHS.pFQvaC%2b6O6ybPg474C474&w=248&h=248&c=17&o=5&dpr=1.3&pid=21.1',
             descrição: ' Carrie, a estranha é um dos maiores clássicos de terror da literatura contemporânea e um dos livros mais aclamados de Stephen King.',
             categorias:['Home',' Produtos']
@@ -20,7 +20,7 @@ import ListarProdutos from '../Components/ListarProdutos';
         {
             id: 4, 
             nome:" Doutor Sono", 
-            preco: "105,97",
+            preco: "R$105,97",
             imagem:'https://th.bing.com/th?id=OPHS.T6fgbGx9JAHEAw474C474&w=248&h=248&o=5&dpr=1.3&pid=21.1',
             descrição:'Mais de trinta anos depois, Stephen King revela a seus leitores o que aconteceu a Danny Torrance',
             categorias:['Home',' Produtos']
@@ -28,7 +28,7 @@ import ListarProdutos from '../Components/ListarProdutos';
         { 
             id: 8, 
             nome:"A hora do Lobsomen", 
-            preco: "91,99",
+            preco: "R$91,99",
             imagem:'https://th.bing.com/th?id=OPHS.68knIqN1nnBVEw474C474&w=248&h=248&o=5&dpr=1.3&pid=21.1',
             descrição:'Quem será o próximo? Quando a lua cresce no céu, um terror paralisante toma os moradores da cidade.',
             categorias:['Home',' Produtos']
@@ -36,7 +36,7 @@ import ListarProdutos from '../Components/ListarProdutos';
         {
             id: 7, 
             nome:" A Dança da Morte", 
-            preco: "78,00",
+            preco: "R$78,00",
             imagem:'https://th.bing.com/th?id=OPHS.KRptF8Oanv0GWQ474C474&w=248&h=248&o=5&dpr=1.3&pid=21.1',
             descrição:'O clássico que deu origem à série The Stand',
             categorias:['Home',' Produtos']
@@ -44,7 +44,7 @@ import ListarProdutos from '../Components/ListarProdutos';
         {
             id: 9, 
             nome:" Misery", 
-            preco: "40,90",
+            preco: "R$40,90",
             imagem:'https://th.bing.com/th?id=OPHS.8lqsbgMtizYI0Q474C474&w=248&h=248&o=5&dpr=1.3&pid=21.1',
             descrição:'Misery: Louca obsessão, de King, Stephen.',
             categorias:['Home',' Produtos']
@@ -76,9 +76,10 @@ import ListarProdutos from '../Components/ListarProdutos';
                 <div id='carousel-img'>
                     <img src='https://loggado.com/wp-content/uploads/2017/03/it.jpg'alt="Slide 3" />
                 </div>
+
       
             </Carousel>
-            <ListarProdutos Produtos ={listaProdutos}  />
+            <ListarProdutos Produtos ={listaProdutos}/>
         </div>
 
         

@@ -1,7 +1,8 @@
 import { useState } from "react";
+
 export default function ListarProdutos({Produtos}){
 
-    const [listaPedidos, setlistaPedidos] = useState ([]);
+    const [listaPedidos, setlistaPedidos] = useState ([]); 
  const adicionarItemPedidos = (objeto) =>{
     setlistaPedidos([...listaPedidos,objeto]);
     }
@@ -18,7 +19,7 @@ export default function ListarProdutos({Produtos}){
                     <h2>{objeto.nome}</h2>
                     <h3>{objeto.preco}</h3>
                     <p>{objeto.descrição}</p>
-                    <button onClick={() =>adicionarProdutoPedido(objeto)}>Comprar</button>
+                    <button onClick={()=>adicionarProdutoPedido(objeto)}>Comprar</button>
                 </div>
         
             )
