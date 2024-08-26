@@ -134,7 +134,7 @@ export default function Produtos(){
     <Header/>
    
     <ListarProdutos Produtos={listaProdutos}/>
-    <Footer/>
+
     </>
     
 

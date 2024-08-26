@@ -36,7 +36,6 @@
     width: 100%;
     justify-content:center;
     background-size: cover; 
-    transition: opacity 5s ease-in-out;
     
     }
 
@@ -91,12 +90,7 @@
     padding: 1rem;
     }
 
-    footer{
-        background-color: rgb(14, 12, 88);
-        color: white;
-        text-align: center;
-        padding: 1rem;
-    }
+ 
 
 
  

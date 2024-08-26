@@ -91,17 +91,13 @@ export default function Oferta(){
       ]);
 
     return(
-      
+      <>
         <div>
               <Header/>
-           <ListarProdutos Produtos={listaProdutos} Nome= {'Oferta'}/>
-
-           
-           <Footer/>
-
+           <ListarProdutos Produtos={listaProdutos} />
         </div>
       
-       
+      </>
     
       
     );

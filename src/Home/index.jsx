@@ -80,11 +80,13 @@ import ListarProdutos from '../Components/ListarProdutos';
 
 
             </Carousel>
-           
+          
+
             <ListarProdutos Produtos ={listaProdutos}/>
-           <Footer/>
-        </div>
+           
         
-        </>
-    );
-    }
+        </div>
+    
+      </>
+);
+}

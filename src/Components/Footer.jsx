@@ -4,10 +4,10 @@ export default function Footer(){
         <>
         <footer>
             <div>
-            <h1> Spilled Blood Bookstore agradeçe a preferencia</h1>
+            <h1> Spilled Blood Bookstore agradeçe a preferencia  </h1>
             </div>
         </footer>
-
+       
         </>
     )
 }
