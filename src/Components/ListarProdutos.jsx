@@ -15,11 +15,12 @@ export default function ListarProdutos({Produtos}){
         {
             Produtos.map((objeto) =>
                 <div class='item-produtos' key= {objeto.id}>
-                    <img src = {objeto.imagem} id='produtos-img'/>
+                    <img src= {objeto.imagem}/>
                     <h2>{objeto.nome}</h2>
                     <h3>{objeto.preco}</h3>
                     <p>{objeto.descrição}</p>
-                    <button onClick={()=>adicionarProdutoPedido(objeto)}>Comprar</button>
+                    <h4>{objeto.categorias}</h4>
+                    <button onClick={()=>adicionarItemPedidos(objeto)}>Comprar</button>
                 </div>
         
             )

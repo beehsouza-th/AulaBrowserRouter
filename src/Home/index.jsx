@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import Header from "../Components/Header";
+import Footer from '../Components/Footer';
 import {Carousel} from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import "../globals.css";   
@@ -15,7 +16,7 @@ import ListarProdutos from '../Components/ListarProdutos';
             preco: "R$14,62",
             imagem:'https://th.bing.com/th?id=OPHS.pFQvaC%2b6O6ybPg474C474&w=248&h=248&c=17&o=5&dpr=1.3&pid=21.1',
             descrição: ' Carrie, a estranha é um dos maiores clássicos de terror da literatura contemporânea e um dos livros mais aclamados de Stephen King.',
-            categorias:['Home',' Produtos']
+            categorias:["Terror" ," fantasia"]
         },
         {
             id: 4, 
@@ -23,7 +24,7 @@ import ListarProdutos from '../Components/ListarProdutos';
             preco: "R$105,97",
             imagem:'https://th.bing.com/th?id=OPHS.T6fgbGx9JAHEAw474C474&w=248&h=248&o=5&dpr=1.3&pid=21.1',
             descrição:'Mais de trinta anos depois, Stephen King revela a seus leitores o que aconteceu a Danny Torrance',
-            categorias:['Home',' Produtos']
+            categorias:["Terror" ," fantasia"]
         },
         { 
             id: 8, 
@@ -31,7 +32,7 @@ import ListarProdutos from '../Components/ListarProdutos';
             preco: "R$91,99",
             imagem:'https://th.bing.com/th?id=OPHS.68knIqN1nnBVEw474C474&w=248&h=248&o=5&dpr=1.3&pid=21.1',
             descrição:'Quem será o próximo? Quando a lua cresce no céu, um terror paralisante toma os moradores da cidade.',
-            categorias:['Home',' Produtos']
+            categorias:["Terror" ," fantasia"]
         },
         {
             id: 7, 
@@ -39,7 +40,7 @@ import ListarProdutos from '../Components/ListarProdutos';
             preco: "R$78,00",
             imagem:'https://th.bing.com/th?id=OPHS.KRptF8Oanv0GWQ474C474&w=248&h=248&o=5&dpr=1.3&pid=21.1',
             descrição:'O clássico que deu origem à série The Stand',
-            categorias:['Home',' Produtos']
+            categorias:["Terror" ," fantasia"]
         },
         {
             id: 9, 
@@ -47,7 +48,7 @@ import ListarProdutos from '../Components/ListarProdutos';
             preco: "R$40,90",
             imagem:'https://th.bing.com/th?id=OPHS.8lqsbgMtizYI0Q474C474&w=248&h=248&o=5&dpr=1.3&pid=21.1',
             descrição:'Misery: Louca obsessão, de King, Stephen.',
-            categorias:['Home',' Produtos']
+            categorias:["Terror" ," fantasia"]
         }
    
     ]);
@@ -77,13 +78,13 @@ import ListarProdutos from '../Components/ListarProdutos';
                     <img src='https://loggado.com/wp-content/uploads/2017/03/it.jpg'alt="Slide 3" />
                 </div>
 
-      
+
             </Carousel>
+           
             <ListarProdutos Produtos ={listaProdutos}/>
+           <Footer/>
         </div>
-
         
-
         </>
     );
     }

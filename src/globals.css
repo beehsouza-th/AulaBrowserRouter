@@ -15,6 +15,7 @@
     text-align: center;
     color: rgb(223, 222, 232);
     margin-top: -5px;
+    font-family: Arial, Helvetica, sans-serif;
 
     }
 
@@ -27,6 +28,7 @@
     margin-right: 70px;  /*espaçamento entre as paginas*/
     text-align: left; 
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
     }
 
     .carousel-pincipal{
@@ -34,6 +36,7 @@
     width: 100%;
     justify-content:center;
     background-size: cover; 
+    transition: opacity 5s ease-in-out;
     
     }
 
@@ -48,9 +51,9 @@
     .item-produtos{
     display: flex;
     flex-direction: column;
-    border: 2px solid #ddd;
+    border: 3px solid #ddd;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: #4e6a98e1;
     padding: 20px;
     max-width: 300px;
     width: 100%;
@@ -65,7 +68,7 @@
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    gap: 8%;
+    gap: 5%;
     margin: 5rem;
     align-items: center;
     justify-content: center;
@@ -75,6 +78,31 @@
     body{
         background-color:black;
     }
+
+    p{
+        font-family :monospace;
+    }
+
+    button{
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    background-color: rgb(14, 12, 88);
+    padding: 1rem;
+    }
+
+    footer{
+        background-color: rgb(14, 12, 88);
+        color: white;
+        text-align: center;
+        padding: 1rem;
+    }
+
+
+ 
+
+  
+
    
 
  
