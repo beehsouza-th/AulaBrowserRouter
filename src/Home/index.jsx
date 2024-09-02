@@ -1,6 +1,5 @@
 import {useState} from 'react';
 import Header from "../Components/Header";
-import Footer from '../Components/Footer';
 import {Carousel} from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import "../globals.css";   

@@ -2,7 +2,6 @@ import { useState } from "react";
 import '../globals.css';
 import ListarProdutos from "../Components/ListarProdutos";
 import Header from "../Components/Header";
-import Footer from "../Components/Footer";
 
 export default function Produtos(){
     const [listaProdutos, setProdutos] = useState([
