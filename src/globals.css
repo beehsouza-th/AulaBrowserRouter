@@ -63,14 +63,18 @@
     }
 
     .container-produtos{
-    height: 50vh;
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    gap: 5%;
-    margin: 5rem;
-    align-items: center;
-    justify-content: center;
+        display: flex;
+        flex-direction: column;
+        border: 3px solid #ddd;
+        border-radius: 20px;
+        background-color: #4e6a98e1;
+        padding: 20px;
+        max-width: 300px;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        overflow-x: auto;
+        
    
     }
 
