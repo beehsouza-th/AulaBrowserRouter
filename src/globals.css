@@ -23,9 +23,9 @@
     display: flex;
     color: rgb(223, 222, 232);
     margin-top: -3px;
-    font-size: 25px; /* tamanho fonte*/
+    font-size: 25px; 
     display: inline-block; 
-    margin-right: 70px;  /*espaçamento entre as paginas*/
+    margin-right: 70px;  
     text-align: left; 
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
